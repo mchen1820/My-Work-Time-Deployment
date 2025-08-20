@@ -10,7 +10,7 @@ import base64
 app = Flask(__name__)
 
 client = genai.Client()
-model = whisper.load_model("base")
+model = whisper.load_model("tiny")
 
 def clean(output):
     output = output.replace('##', '')
