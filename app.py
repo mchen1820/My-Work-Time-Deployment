@@ -238,4 +238,4 @@ def code():
     return render_template("code.html", result=result, action=action)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
